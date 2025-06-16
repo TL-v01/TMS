@@ -1,0 +1,109 @@
+html,
+
+head{
+  margin-bottom: 0px;
+} 
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color:#131313;
+  color:white;
+  position: relative;
+   
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.title{
+    margin-top: 20mm;
+  margin-bottom: 1cm;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+  color: #bb00ff;
+}
+
+.img1{
+  margin-top: 0;
+}
+
+/*nav===========================================================================*/
+#nav {
+  background-color: #212121;
+  color: rgb(251, 0, 255);
+  font-size:110%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 5px trgb(251, 0, 255);
+  cursor: pointer;
+    transition: background-color;
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+
+  .nav-item:hover {
+    
+  user-select: all;
+  color: rgb(251, 129, 255);
+}
+#home{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 20px;
+    padding:20px;
+    background-color: transparent;
+}
+#mods{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 20px;
+    padding:20px;
+    background-color: transparent;
+}
+#shaders{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 20px;
+    padding:20px;
+    background-color: transparent;
+}
+#rsp{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 20px;
+    padding:20px;
+    background-color: transparent;
+}
+
+
