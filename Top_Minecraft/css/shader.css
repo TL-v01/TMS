@@ -25,13 +25,19 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1300px;
+  max-width: 1500px;
   
 }
 
 /*=======================================CLASSES======================================*/
 .link{
   color: #fbfd96;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  transition:transform 0.3s ease;
+}
+.link:hover{
+  transform: scale(1.01);
 }
 
 
@@ -61,7 +67,7 @@ main {
 
 .shadername {
     color: aqua;
-    font-size:1.5rem;
+    font-size:180%;
 }
 
 .versions{
@@ -71,7 +77,7 @@ main {
   font-size: 3rem;
   text-align: center;
   color: rgb(0, 255, 102);
-  margin-bottom: 0cm;
+  margin-bottom: 30px;
 }
 .tt2{
     color:#ce47ff ;
@@ -170,5 +176,20 @@ main {
     overflow: hidden; /* hide scrollbars */
     scroll-behavior: smooth;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
+.shader_section{
+  display:flex;
+  background-color: rgb(30, 30, 30);
+  padding:10px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 1700px;
+  border-radius: 10px;
+  
+}
+
+.shader_section1{
+  margin:20px
+}

@@ -4,3 +4,76 @@
   color: rgb(0, 255, 102);
   margin-bottom: 0cm;
 }
+
+
+
+
+
+.mod_type{
+  background-color: rgb(30, 30, 30);
+  padding:10px;
+  margin-top: 50px;
+  margin-bottom: 20%;
+  margin-left:10px;
+  max-width: 1500px;
+  border-radius: 10px;
+  color: rgb(243, 54, 255);
+  font-size: 140%;
+}
+
+.mod_section{
+ padding:20px;
+ margin: 50px;
+ border: solid 3px rgb(150, 15, 193) ;
+ border-radius: 5px;
+ background-color: rgb(29, 16, 31);
+}
+
+.mod_title{
+  color: aqua;
+  font-size: 125%;
+}
+
+.modrv{
+  color: white;
+  font-size: 80%;
+}
+
+.mod_icon{
+  display: flex;
+  width: 90px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.mod_header{
+  
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.feature1{
+  color: rgb(103, 255, 86);
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.toggle-btn {
+  border: solid 12px rgb(150, 15, 193) ;
+  background-color: transparent;
+  color: rgb(150, 15, 193);
+  border: none;
+  padding: 10px 650px 10px 650px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+

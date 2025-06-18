@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/home.css" />
   <link rel="stylesheet" href="../css/shader.css" />
+  <link rel="stylesheet" href="../css/mods.css" />
   <script defer src="../js/home.js"></script>
+  <script defer src="../js/mods.js"></script>
+  <script defer src="../js/main.js"></script>
   <title>Top Minecraft</title>
 </head>
 <body>
@@ -20,10 +23,141 @@
     <div class="nav-item" id="rsp">Resource packs</div> |
   </nav>
 
-  <h1 id="tt1">Top Minecraft Mod(pack)s</h1>
+  <h1 id="tt1">Top Minecraft Mods</h1>
 
   <main>
-    <!-- Mods content goes here -->
+    <div class="mod_type"> <h2>Optimization mods</h2>
+        <div class="mod_section">
+          <div class="mod_section1">
+            <div class="mod_header">
+            <h3 class="mod_title">
+              <u>Optifine</u>
+              <img class="mod_icon" src="img/download (3).jpg" alt="Image 1">
+            </h3>
+
+            <p class="modrv">
+             - If you play Minecraft Java Edition, you've probably heard of OptiFine and for good reason.
+              This mod has become a staple in the Minecraft community, offering a perfect blend of performance enhancements and graphical improvements.
+              Whether you're on a low-end system or a high-end gaming rig, OptiFine can drastically improve your gameplay experience.
+              <br> - Optifine is also a mod that supports shaders.
+            </p>
+
+          <button class="toggle-btn" data-target="Optifine_details">︾</button>
+
+          <span id="Optifine_details" class="hidden">
+
+
+          <div class="gallery-container">
+            <button class="arrow left">&lt;</button>
+            <div class="arrow-gallery">
+              <img src="img/OPtifine1.png" alt="Image 1">
+              <img src="img/optifine2.png" alt="Image 2">
+              <img src="img/optifine3.png" alt="Image 3">
+              <img src="img/optifine4.png" alt="Image 4">
+              <img src="img/optifine5.png" alt="Image 5">
+            </div>
+            <button class="arrow right">&gt;</button>
+          </div>
+
+
+            <div class="feature1"><p>Performance boost</p>
+              <p class=modrv> 
+                   + Dynamic chunk loading
+              <br> + Smooth FPS
+              <br> + Fast math
+              <br> + Adjustable render distance
+              <br> + Even on older machines, OptiFine helps Minecraft run noticeably smoother.</p>
+            </div>
+
+            <div class="feature1"> <p>Customization</p>
+              <p class="modrv">
+                     + Particle settings
+                <br> + Animation toggles
+                <br> + Mipmap levels
+                <br> + Sync, antialiasing, and anisotropic filtering</p>
+            </div>
+
+            <div class="feature1"> <p>Visual Enhancements</p>
+              <p class="modrv">                   
+                     + HD texture support (including custom resource packs)
+                <br> + Dynamic lighting that reacts in real-time
+                <br> + Better fog, shadows, and water effects
+                <br> + Custom sky and weather animations
+              </p>
+            </div>
+
+            <ul>
+              <li class="link"><a href="https://optifine.net/downloads">Official Site</a></li>
+              <li class="link"><a href="http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.21.4_HD_U_J3.jar&x=8537">Download latest version</a></li>
+            </ul>
+          </span>
+          </div>
+        </div>
+      </div>
+
+        <div class="mod_section">
+          <div class="mod_section1">
+            <div class="mod_header">
+                <h3 class="mod_title"> <u>Sodium</u> <img class="mod_icon" src="img\sodium.webp" alt="Image2"></img> </h3>
+                <p class="modrv">Sodium is a powerful performance optimization mod designed for Minecraft: Java Edition. It’s one of the most popular alternatives to OptiFine, focused specifically on increasing frame rates and making the game run smoother without changing its core graphics too drastically.
+                </p>
+
+                <button class="toggle-btn" data-target="Sodium_details">︾</button>
+                
+              <span id="Sodium_details" class="hidden"> 
+
+
+                <div class="gallery-container">
+                  <button class="arrow left">&lt;</button>
+                    <div class="arrow-gallery">
+                    <img src="img/sodium1.webp" alt="Image 1">
+                    <img src="img/sodium2.png" alt="Image 2">
+                    
+                </div>
+                  <button class="arrow right">&gt;</button>
+            </div>
+
+
+                <div class="feature1"> <p>Perfomance boost</p>
+                  <p class="modrv">                   
+                      + Massive FPS Improvements
+                  <br> + Efficient Chunk Rendering
+                  <br> + Reduced Micro-Stuttering
+                  </p>
+                </div>
+
+                <div class="feature1"> <p>Advanced Video Settings</p>
+                <p class="modrv">                   
+                       + Chunk memory allocation
+                  <br> + Render distance adjustments
+                  <br> + Animated textures and blocks
+                  <br> + CCulling settings for hidden objects
+                 </p>
+                </div>
+
+              </span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mod_section">
+          <div class="mod_section1">
+            <div class="mod_header">
+                <h3 class="mod_title"> <u>Iris</u> <img class="mod_icon" src="img\sodium.webp" alt="Image2"></img> </h3>
+                <p class="modrv">
+                </p>
+
+                <button class="toggle-btn" data-target="Iris_details">︾</button>
+                
+              <span id="Iris_details" class="hidden">  
+                
+              </span>
+            </div>
+          </div>
+        </div>
+
+    </div>
   </main>
 </body>
 </html>

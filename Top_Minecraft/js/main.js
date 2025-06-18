@@ -4,10 +4,15 @@ document.querySelectorAll('.gallery-container').forEach(container => {
     const rightButton = container.querySelector('.arrow.right');
 
     let scrollAmount = 0;
-    const scrollStep = 800; // adjust this as needed
+    const scrollStep = 800;
+
+    function getMaxScrollAmount() {
+        return gallery.scrollWidth - gallery.clientWidth;
+    }
 
     rightButton.addEventListener('click', () => {
-        scrollAmount += scrollStep;
+        const maxScrollAmount = getMaxScrollAmount();
+        scrollAmount = Math.min(scrollAmount + scrollStep, maxScrollAmount);
         gallery.scrollTo({
             left: scrollAmount,
             behavior: 'smooth'
@@ -15,8 +20,7 @@ document.querySelectorAll('.gallery-container').forEach(container => {
     });
 
     leftButton.addEventListener('click', () => {
-        scrollAmount -= scrollStep;
-        if (scrollAmount < 0) scrollAmount = 0;
+        scrollAmount = Math.max(scrollAmount - scrollStep, 0);
         gallery.scrollTo({
             left: scrollAmount,
             behavior: 'smooth'
