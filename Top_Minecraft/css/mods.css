@@ -13,7 +13,7 @@
   background-color: rgb(30, 30, 30);
   padding:10px;
   margin-top: 50px;
-  margin-bottom: 20%;
+  margin-bottom: 100px;
   margin-left:10px;
   max-width: 1500px;
   border-radius: 10px;
@@ -27,6 +27,10 @@
  border: solid 3px rgb(150, 15, 193) ;
  border-radius: 5px;
  background-color: rgb(29, 16, 31);
+}
+
+.mod_section1{
+  margin:10px;
 }
 
 .mod_title{
@@ -44,7 +48,11 @@
   width: 90px;
   height: auto;
   margin-top: 10px;
-  border-radius: 3px;
+  border: 2px solid rgb(101, 244, 96);
+  background-color: rgb(25, 25, 25);
+  border-radius: 4px;
+  pointer-events: none;
+  
 }
 
 .mod_header{
@@ -56,7 +64,6 @@
 
 .feature1{
   color: rgb(103, 255, 86);
-  margin-top: 50px;
   margin-left: 10px;
 }
 
@@ -69,7 +76,7 @@
   background-color: transparent;
   color: rgb(150, 15, 193);
   border: none;
-  padding: 10px 650px 10px 650px;
+  padding: 10px 640px 10px 640px;
   border-radius: 4px;
   text-align: center;
   font-size: 2rem;

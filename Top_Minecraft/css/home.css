@@ -51,9 +51,9 @@ main {
   font-size:130%;
   display: flex;
   justify-content: center;
-  box-shadow: 0 2px 5px rgb(251, 0, 255);
+  box-shadow: 0 2px 5px rgb(252, 68, 255);
   cursor: pointer;
-    transition: background-color;
+  transition: background-color;
   margin-bottom: 0px;
   align-items: center;
   
